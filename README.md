@@ -21,10 +21,10 @@ Keras (with TensorFlow backend)
 ## Introduction
 The MNIST dataset is a popular benchmark in the field of machine learning and deep learning. The dataset's simplicity allows for quick model prototyping and experimentation. Keras, a high-level neural network API, is used to build and train the model. Keras is known for its user-friendly, modular, and extensible design, and it supports deep learning frameworks like TensorFlow.
 
-# Description
+## Description
 This project implements a 5-layer Sequential Convolutional Neural Network (CNN) for digit recognition. The CNN is trained on the MNIST dataset using Keras with TensorFlow as the backend. The model's architecture includes convolutional layers, pooling layers, and dense layers, which work together to achieve high accuracy in digit recognition.
 
-# Model Architecture
+## Model Architecture
 Convolutional Layers: Extract features from the input images.
 
 Pooling Layers: Reduce the spatial dimensions of the feature maps.
@@ -35,10 +35,10 @@ Training
 
 The model is trained using the training set (60,000 images) with appropriate data augmentation techniques to improve generalization.
 
-# Accuracy
+## Accuracy
 The CNN model achieved an average accuracy of 92.1% and an R-squared value of 0.78 on the test set. The training process was conducted on a GPU to expedite the computation. If you don't have access to a GPU, the training time may be longer. You can reduce the number of epochs to decrease computation time if necessary.
 
-# Results
+## Results
 Training Accuracy: 92.4%
 
 Test Accuracy: 91.8%
@@ -47,7 +47,7 @@ R-squared Value: 0.78
 
 These results demonstrate the model's capability to accurately recognize handwritten digits from the MNIST dataset.
 
-# Code Files
+## Code Files
 
 1. Main Application (mnist_cnn.py):
 
@@ -58,7 +58,7 @@ Evaluates the model on the test set and displays the results.
 
 2. Data Preparation (data_preparation.py): This script preprocesses the MNIST dataset and prepares it for training and testing.
 
-# Setup Instructions
+## Setup Instructions
 1. Clone the repository:
 
 bash code:
@@ -75,14 +75,14 @@ pip install -r requirements.txt
 bash code:
 python mnist_cnn.py
 
-# Future Improvements
+## Future Improvements
 Implement more advanced data augmentation techniques to improve model generalization.
 
 Explore different neural network architectures such as ResNet or DenseNet for better performance.
 
 Deploy the model as a web application using Flask or Django for easy accessibility.
 
-# Credits
+## Credits
 
 Dataset: The MNIST dataset is a benchmark dataset in machine learning and deep learning.
 
